@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# reelshort-corporate
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ReelShort 企业门户网站，面向公众和合作伙伴的官方网站。
 
-## Setup
+## 功能特性
 
-Make sure to install dependencies:
+- 品牌介绍与关于我们
+- 粉丝社区（Fandom）
+- 媒体资源与新闻（Press）
+- 联系方式
+- 隐私政策与服务条款
+- 应用下载引导页
+
+## 技术栈
+
+- Nuxt 4.5 + Vue 3.5
+- Tailwind CSS
+- @nuxt/image (图片优化)
+- @vueuse/nuxt (组合式工具库)
+- @reelshort/shared (共享类型与常量)
+
+## 开发
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# 安装依赖（在 monorepo 根目录执行）
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# 启动开发服务器 → http://localhost:3002
 pnpm dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+# 构建生产版本
 pnpm build
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+# 预览生产构建
 pnpm preview
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
+# 类型检查
+pnpm typecheck
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 渲染模式
+
+企业门户采用全静态预渲染（SSG）模式，所有页面在构建时生成静态 HTML，通过 Nitro prerender 实现。预渲染路由包括：
+
+```
+/ /fandom /about /press /contact /privacy /terms /download
+```
+
+无需配置 Supabase 等后端环境变量，部署到 Vercel 后以纯静态站点形式运行。

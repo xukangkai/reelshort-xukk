@@ -1,75 +1,53 @@
-# Nuxt Minimal Starter
+# reelshort-admin
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ReelShort 内容管理后台，供运营和管理团队使用的内部管理系统。
 
-## Setup
+## 功能特性
 
-Make sure to install dependencies:
+- 影片内容管理（CRUD、上下架）
+- 分类与标签管理
+- VIP 套餐管理
+- Fandom 文章管理
+- 用户认证与权限控制（Supabase Auth）
+
+## 技术栈
+
+- Nuxt 4.5 + Vue 3.5
+- Tailwind CSS
+- Supabase (Auth + PostgreSQL + Service Role Key)
+- @vueuse/nuxt (组合式工具库)
+- @reelshort/shared (共享类型与常量)
+
+## 开发
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# 安装依赖（在 monorepo 根目录执行）
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# 启动开发服务器 → http://localhost:3001
 pnpm dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+# 构建生产版本
 pnpm build
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+# 预览生产构建
 pnpm preview
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
+# 类型检查
+pnpm typecheck
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 环境变量
+
+在项目根目录创建 `.env` 文件：
+
+```env
+NUXT_PUBLIC_SUPABASE_URL=<supabase-project-url>
+NUXT_PUBLIC_SUPABASE_ANON_KEY=<supabase-anon-key>
+NUXT_SUPABASE_SERVICE_KEY=<supabase-service-role-key>
+NUXT_PUBLIC_SITE_URL=http://localhost:3001
+```
+
+## 渲染模式
+
+管理后台采用全 CSR（客户端渲染）模式运行，所有路由均禁用 SSR，确保后台操作在客户端完成。登录页面通过 Supabase Auth redirect 机制保护。

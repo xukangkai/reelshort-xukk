@@ -51,10 +51,10 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { isr: 300 },
-    '/movie/**': { isr: 120 },
-    '/category/**': { isr: 3600 },
-    '/fandom/**': { isr: 3600 },
+    '/': { ssr: true },
+    '/movie/**': { ssr: true },
+    '/category/**': { ssr: true },
+    '/fandom/**': { ssr: true },
     '/search': { ssr: false },
     '/my-list': { ssr: false },
     '/profile': { ssr: false },
