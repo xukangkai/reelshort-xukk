@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "首页",
+    "categories": "分类",
+    "fandom": "粉丝圈",
+    "signIn": "登录",
+    "search": "搜索",
+    "myList": "追剧单",
+    "profile": "我的",
+    "language": "语言"
+  },
+  "home": {
+    "trending": "热门推荐"
+  },
+  "search": {
+    "placeholder": "搜索剧集、分类、标签...",
+    "recent": "最近搜索",
+    "clear": "清除",
+    "noResults": "未找到\"{query}\"的相关结果"
+  },
+  "movie": {
+    "views": "次播放",
+    "likes": "次点赞",
+    "goWatching": "立即观看",
+    "addToList": "+ 追剧单",
+    "showLess": "收起",
+    "more": "更多",
+    "episodes": "剧集"
+  },
+  "episode": {
+    "episode": "第{number}集",
+    "prev": "上一集",
+    "next": "下一集",
+    "like": "点赞",
+    "share": "分享",
+    "autoPlayNext": "自动播放下一集",
+    "allEpisodes": "全部剧集",
+    "nextEpisodeIn": "{count}秒后播放下一集",
+    "playNow": "立即播放",
+    "cancel": "取消",
+    "videoComingSoon": "视频即将上线"
+  },
+  "login": {
+    "welcomeBack": "欢迎回来",
+    "createAccount": "创建您的账户",
+    "username": "用户名",
+    "email": "邮箱",
+    "password": "密码",
+    "signIn": "登录",
+    "signUp": "注册",
+    "loading": "登录中...",
+    "or": "或",
+    "continueGoogle": "使用 Google 登录",
+    "hasAccount": "已有账户？",
+    "noAccount": "还没有账户？"
+  },
+  "profile": {
+    "title": "个人中心",
+    "myList": "追剧单",
+    "coins": "0 金币",
+    "vip": "VIP",
+    "help": "帮助",
+    "notifications": "通知",
+    "language": "语言",
+    "signOut": "退出登录"
+  },
+  "category": {
+    "title": "全部分类"
+  },
+  "myList": {
+    "title": "我的追剧单",
+    "empty": "追剧单为空",
+    "emptyDesc": "将感兴趣的剧集加入追剧单，方便以后观看",
+    "browse": "浏览剧集"
+  },
+  "download": {
+    "text": "下载 ReelShort App，随时随地看短剧",
+    "getApp": "下载App"
+  },
+  "footer": {
+    "slogan": "每一秒都是戏。随时随地观看海量短剧。",
+    "about": "关于",
+    "aboutUs": "关于我们",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "support": "帮助支持",
+    "helpCenter": "帮助中心",
+    "contactUs": "联系我们",
+    "faq": "常见问题",
+    "followUs": "关注我们",
+    "copyright": "版权所有。"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "retry": "重试",
+    "back": "返回",
+    "viewAll": "查看全部"
+  }
+}

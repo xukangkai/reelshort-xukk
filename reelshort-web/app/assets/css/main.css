@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+html {
+  @apply bg-gray-950 text-white;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply min-h-screen antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { @apply bg-transparent; }
+::-webkit-scrollbar-thumb { @apply bg-gray-700 rounded-full; }
+
+/* Horizontal scroll shelf */
+.shelf-scroll {
+  @apply flex overflow-x-auto gap-3 pb-2;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.shelf-scroll::-webkit-scrollbar { display: none; }
+
+/* Skeleton */
+.skeleton { @apply bg-gray-800 animate-pulse rounded; }
+
+/* Card hover */
+.drama-card {
+  @apply relative overflow-hidden rounded-lg transition-transform duration-200;
+}
+.drama-card:hover { @apply scale-105; }
+.drama-card:hover .drama-card-overlay { @apply opacity-100; }
+
+/* Gradients */
+.gradient-bottom {
+  background: linear-gradient(to top, rgba(3,7,18,0.95) 0%, rgba(3,7,18,0.6) 40%, transparent 100%);
+}
+
+/* Banner transition */
+.banner-enter-active, .banner-leave-active { transition: opacity 0.6s ease-in-out; }
+.banner-enter-from, .banner-leave-to { opacity: 0; }
+
+/* Safe area */
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }

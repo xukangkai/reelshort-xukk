@@ -1,0 +1,5 @@
+packages:
+  - "reelshort-web"
+  - "reelshort-admin"
+  - "reelshort-corporate"
+  - "reelshort-shared"

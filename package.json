@@ -1,0 +1,18 @@
+{
+  "name": "reelshort",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter reelshort-web dev",
+    "dev:admin": "pnpm --filter reelshort-admin dev",
+    "dev:corporate": "pnpm --filter reelshort-corporate dev",
+    "build:web": "pnpm --filter reelshort-web build",
+    "build:admin": "pnpm --filter reelshort-admin build",
+    "build:corporate": "pnpm --filter reelshort-corporate build",
+    "build:all": "pnpm -r build",
+    "install:all": "pnpm install"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.4"
+}

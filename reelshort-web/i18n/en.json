@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "fandom": "Fandom",
+    "signIn": "Sign In",
+    "search": "Search",
+    "myList": "My List",
+    "profile": "Profile",
+    "language": "Language"
+  },
+  "home": {
+    "trending": "Trending Now"
+  },
+  "search": {
+    "placeholder": "Search dramas, categories, tags...",
+    "recent": "Recent Searches",
+    "clear": "Clear",
+    "noResults": "No results found for \"{query}\""
+  },
+  "movie": {
+    "views": "views",
+    "likes": "likes",
+    "goWatching": "Go Watching",
+    "addToList": "+ My List",
+    "showLess": "Show Less",
+    "more": "More",
+    "episodes": "Episodes"
+  },
+  "episode": {
+    "episode": "Episode",
+    "prev": "Prev",
+    "next": "Next",
+    "like": "Like",
+    "share": "Share",
+    "autoPlayNext": "Auto-play next",
+    "allEpisodes": "All Episodes",
+    "nextEpisodeIn": "Next episode in {count}s",
+    "playNow": "Play Now",
+    "cancel": "Cancel",
+    "videoComingSoon": "Video coming soon"
+  },
+  "login": {
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create your account",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "loading": "Loading...",
+    "or": "or",
+    "continueGoogle": "Continue with Google",
+    "hasAccount": "Already have an account?",
+    "noAccount": "Don't have an account?"
+  },
+  "profile": {
+    "title": "Profile",
+    "myList": "My List",
+    "coins": "0 Coins",
+    "vip": "VIP",
+    "help": "Help",
+    "notifications": "Notifications",
+    "language": "Language",
+    "signOut": "Sign Out"
+  },
+  "category": {
+    "title": "Categories"
+  },
+  "myList": {
+    "title": "My List",
+    "empty": "Your list is empty",
+    "emptyDesc": "Add dramas to your list to watch them later",
+    "browse": "Browse Dramas"
+  },
+  "download": {
+    "text": "Watch anywhere with the ReelShort app",
+    "getApp": "Get App"
+  },
+  "footer": {
+    "slogan": "Every Second Is Drama. Watch thousands of short dramas anytime, anywhere.",
+    "about": "About",
+    "aboutUs": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "contactUs": "Contact Us",
+    "faq": "FAQ",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Back",
+    "viewAll": "View All"
+  }
+}

@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+.output/
+.nuxt/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Upload temp
+_upload_media.sh
+_uploads/
+未命名/
+
+# Mobile (not deployed to Vercel)
+reelshort-mobile/
+
+# Database scripts (not deployed to Vercel)
+reelshort-db/
