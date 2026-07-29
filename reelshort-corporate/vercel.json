@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "node preinstall.cjs",
   "buildCommand": "npx nuxt build",
   "outputDirectory": ".output",
   "framework": "nuxtjs"
