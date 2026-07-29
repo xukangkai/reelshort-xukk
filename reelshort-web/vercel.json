@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "cd ../.. && pnpm install",
-  "buildCommand": "cd ../.. && pnpm --filter reelshort-web build",
+  "buildCommand": "npx nuxt build",
   "outputDirectory": ".output",
   "framework": "nuxtjs"
 }
