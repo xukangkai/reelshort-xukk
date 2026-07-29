@@ -29,8 +29,5 @@ _upload_media.sh
 _uploads/
 未命名/
 
-# Mobile (not deployed to Vercel)
-reelshort-mobile/
-
 # Database scripts (not deployed to Vercel)
 reelshort-db/
